@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Guild Wars 2 Tracker</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/gw2-logo-1.png" alt="" id="logo" />
+      <img src="assets/gw2-wallpaper-5.jpg" alt="" id="wallpaper" />
+    </header>
+    <section>
+      <div class="wrapper-title">
+        <h2 id="main-title">Guild Wars 2 <span>Tracker</span></h2>
+        <p id="quote">
+          “The dragons sought to silence our world, to break our will and burn
+          our hopes to ash. But we rose—scarred, yes, but stronger. We are not
+          just survivors—we are the fire reborn, the sword reforged. And
+          together, we shape the future.”
+        </p>
+      </div>
+      <div class="grid">
+        <!--Content block 1-->
+        <article id="content-block-1">
+          <h3 class="grid-title"><i class="ri-links-line"></i> Useful links</h3>
+          <ul class="list" id="list-links">
+            <li>
+              <img src="assets/arenanet-logo.png" alt="" />
+              <a href="https://account.arena.net/overview" target="_blank"
+                >Guild Wars 2 ArenaNet</a
+              >
+            </li>
+            <li>
+              <img src="assets/gw2-wiki-logo.png" alt="" />
+              <a
+                href="https://wiki.guildwars2.com/wiki/Main_Page"
+                target="_blank"
+                >Guild Wars 2 Wiki</a
+              >
+            </li>
+            <li>
+              <img src="assets/gw2-efficiency-logo.png" alt="" />
+              <a href="https://gw2efficiency.com/" target="_blank"
+                >Efficiency</a
+              >
+            </li>
+
+            <li>
+              <img src="assets/gw2-logo-1.png" alt="" />
+              <a href="https://gw2crafts.net/" target="_blank">Crafts</a>
+            </li>
+
+            <li>
+              <img src="assets/gw2-ff-logo.png" alt="" />
+              <a href="https://fast.farming-community.eu/" target="_blank"
+                >Fast Farming</a
+              >
+            </li>
+
+            <li>
+              <img src="assets/gw2-gs-logo.jpg" alt="" />
+              <a
+                href="https://www.thatshaman.com/tools/gemstore/"
+                target="_blank"
+                >Gemstore Schedule</a
+              >
+            </li>
+
+            <li>
+              <img src="assets/gw2-fashion-logo.png" alt="" />
+              <a
+                href="https://docs.google.com/presentation/d/1WOYuzc-DPhBf2vrn_PP1kXmX3i3rA6wX2-ULPv9K2p0/edit?pli=1&slide=id.g2b664173f1d_0_0#slide=id.g2b664173f1d_0_0"
+                target="_blank"
+                >Fashion Compendium</a
+              >
+            </li>
+
+            <li>
+              <img src="assets/gw2-kp-logo.png" alt="" />
+              <a href="https://killproof.me/" target="_blank">Killproof</a>
+            </li>
+
+            <li>
+              <img src="assets/gw2-wm-logo.png" alt="" />
+              <a
+                href="https://gw2wingman.nevermindcreations.de/home"
+                target="_blank"
+                >Wingman</a
+              >
+            </li>
+
+            <li>
+              <img src="assets/gw2-dpslog-logo.png" alt="" />
+              <a href="https://dps.report/" target="_blank">DPS Reports</a>
+            </li>
+          </ul>
+        </article>
+
+        <!--Content block 2-->
+        <article id="content-block-2">
+          <!-- <h3 class="grid-title"><i class="ri-star-fill"></i> Something</h3> -->
+          <div class="wrapper-image">
+            <img src="assets/gw2-wallpaper-4.jpg" alt="" />
+            <figcaption>The Thousand Seas Pavilion in Cantha</figcaption>
+          </div>
+        </article>
+
+        <!--Content block 3-->
+        <article id="content-block-3">
+          <h3 class="grid-title">
+            <i class="ri-list-check-3"></i> Your To-Do's
+          </h3>
+          <div class="wrapper">
+            <input
+              class="input-text"
+              type="text"
+              id="input-to-do-list"
+              placeholder="Add task..."
+            />
+            <ul class="list" id="to-do-list">
+              <li id="to-do-list-item">
+                <input type="checkbox" name="" id="checkbox" />
+                <p id="task-text">Example task</p>
+                <div class="wrapper-buttons">
+                  <button id="btn-delete">
+                    <i class="ri-close-large-line"></i>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!--Content block 4-->
+        <article id="content-block-4">
+          <h3 class="grid-title">
+            <i class="ri-account-box-line"></i> Account Overview
+          </h3>
+          <div class="wrapper-account-info">
+            <input
+              class="input-text"
+              type="text"
+              id="input-apikey"
+              placeholder="Enter your API key..."
+            />
+            <p class="overview-title">Account Name</p>
+            <p class="overview-text" id="display-account-name">-</p>
+            <p class="overview-title">Account Created</p>
+            <p class="overview-text" id="display-account-created">-</p>
+            <p class="overview-title">Total Playtime</p>
+            <p class="overview-text" id="display-playtime">-</p>
+            <!-- <p class="overview-title">Achievement Points</p>
+            <p class="overview-text" id="display-ap">-</p> -->
+            <p class="overview-title">Mastery Rank</p>
+            <p class="overview-text" id="display-mr">-</p>
+            <p class="overview-title">WvW Rank</p>
+            <p class="overview-text" id="display-wvw-rank">-</p>
+            <p class="overview-title">PvP Rank</p>
+            <p class="overview-text" id="display-pvp-rank">-</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>Made by Ennio Esseboom &#169;2025</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
